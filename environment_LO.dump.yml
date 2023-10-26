@@ -1,0 +1,7 @@
+name: project_LO
+channels:
+  - defaults
+dependencies:
+  - python=3.10
+  - numpy
+prefix: /home/lucija/miniconda3/envs/project_LO
