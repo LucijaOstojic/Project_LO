@@ -1,7 +1,4 @@
 biopython==1.79
-mkl-fft @ file:///croot/mkl_fft_1695058164594/work
-mkl-random @ file:///croot/mkl_random_1695059800811/work
-mkl-service
 numpy
 ProDy
 pyparsing
