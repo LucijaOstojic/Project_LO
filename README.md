@@ -8,10 +8,16 @@ that are within a certain distance from the protein.
 All requirements for this script to run are stored in requirements.txt
 
 After cloning the repository, please run
+    
+    conda env create -f environment_LO.dump.yml
+    
+    conda activate project_LO
+ 
+ to create and activate the environment. Then run 
 
     pip install -r requirements.txt
 
-to install the libraries required for running this script.
+ to install the libraries required for running this script.
 
 Input PDB files are needed for the script to run. Test PDB files are stored in the *test_data* folder and named
 protein*.pdb.
